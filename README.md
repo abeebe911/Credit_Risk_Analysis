@@ -6,39 +6,39 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 # Results:
 The balanced accuracy scores and the precision and recall scores of all six machine learning models are shown below. 
 
-### Naive Random Oversampling
+## Naive Random Oversampling
 
 ![photo1](Images/photo1.png)
 
-Balanced Accuracy score - 0.6533977140416822
+### Balanced Accuracy score - 0.6533977140416822
 
-### SMOTE Oversampling
+## SMOTE Oversampling
 
 ![photo2](Images/photo2.png)
 
-Balanced Accuracy score - 0.6533977140416822
+### Balanced Accuracy score - 0.6533977140416822
 
-### Undersampling
+## Undersampling
 
 ![photo3](Images/photo3.png)
 
-### Combination (Over and Under) Sampling
+## Combination (Over and Under) Sampling
 
 ![photo4](Images/photo4.png)
 
-Balanced Accuracy score - 0.6400726134353378
+### Balanced Accuracy score - 0.6400726134353378
 
-#### Balanced Random Forest Classifier
+## Balanced Random Forest Classifier
 
 ![photo5](Images/photo5.png)
 
-Balanced Accuracy score - 0.7877672625306695
+### Balanced Accuracy score - 0.7877672625306695
 
-### Easy Ensemble AdaBoost Classifier
+## Easy Ensemble AdaBoost Classifier
 
 ![photo6](Images/photo6.png)
 
-Balanced Accuracy score - 0.925427358175101
+### Balanced Accuracy score - 0.925427358175101
 
 # Summary:
 Balanced Accuracy is the average of sensitivity and specificity with a min = 0 and max = 1. Balanced accuracy is the most accurate the closer its value is to 1. From the 6 machine learning models we worked with in this challenge, Easy Ensemble AdaBoost Classifier has the highest balanced accuracy score at 0.925427358175101
