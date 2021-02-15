@@ -1,35 +1,42 @@
 # Credit_Risk_Analysis
 
 # Overview of the Analysis:
-Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, we have used different techniques to train and evaluate models with unbalanced classes and used imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
+Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, we have used different techniques to train and evaluate models with unbalanced classes and used imbalanced-learn and scikit-learn libraries to build and evaluate different models.
 
 # Results:
-The balanced accuracy scores and the precision and recall scores of all six machine learning models.
-For any machine learning model, we first start with converting our string values into numerical ones and spliting the data into training and testing. We have used 6 different machine learning models here as follows;
+The balanced accuracy scores and the precision and recall scores of all six machine learning models are shown below. 
 
 ### Naive Random Oversampling
 
 ![photo1](Images/photo1.png)
 
-Balanced Accuracy score - 0.6497536370265621
+Balanced Accuracy score - 0.6533977140416822
 
 ### SMOTE Oversampling
 
-Balanced Accuracy score - 0.6443721269403855
+![photo2](Images/photo2.png)
+
+Balanced Accuracy score - 0.6533977140416822
 
 ### Undersampling
 
-Balanced Accuracy score - 0.6443721269403855
+![photo3](Images/photo3.png)
 
 ### Combination (Over and Under) Sampling
 
-Balanced Accuracy score - 0.5172544730088513
+![photo4](Images/photo4.png)
+
+Balanced Accuracy score - 0.6400726134353378
 
 #### Balanced Random Forest Classifier
+
+![photo5](Images/photo5.png)
 
 Balanced Accuracy score - 0.7877672625306695
 
 ### Easy Ensemble AdaBoost Classifier
+
+![photo6](Images/photo6.png)
 
 Balanced Accuracy score - 0.925427358175101
 
